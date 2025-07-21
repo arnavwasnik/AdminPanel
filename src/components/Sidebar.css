@@ -1,0 +1,21 @@
+/* Sidebar.css */
+.sidebar {
+  width: 220px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}

@@ -15,6 +15,9 @@ export default function Sidebar() {
           <li><Link to="/payment">Payment Report</Link></li>
           <li><Link to="/promo">Promo Code</Link></li>
           <li><Link to="/restaurants">Restaurant Monitoring</Link></li>
+        <li><Link to="/feedback">Feedback & Complaints</Link></li> {/* new added for testing */}
+
+
         </ul>
       </nav>
     </div>

@@ -8,6 +8,7 @@ import OrdersDelivery from './pages/OrdersDelivery';
 import PaymentReport from './pages/PaymentReport';
 import PromoCode from './pages/PromoCode';
 import RestaurantMonitoring from './pages/RestaurantMonitoring';
+import FeedbackAndComplaints from './pages/FeedbackAndComplaints';
 
 import './App.css';
 
@@ -24,6 +25,8 @@ function App() {
             <Route path="/payment" element={<PaymentReport />} />
             <Route path="/promo" element={<PromoCode />} />
             <Route path="/restaurants" element={<RestaurantMonitoring />} />
+            <Route path="/feedback" element={<FeedbackAndComplaints />} /> {/* new added for testing*/}
+
           </Routes>
         </div>
       </div>
